@@ -1,0 +1,101 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #F7F7F7;
+    color: #000;
+}
+
+.header {
+    background-color: #2196f3;
+    height: 50px;
+    padding: 16px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-emoji {
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 40px;
+    text-transform: uppercase;
+}
+
+.header-description {
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 384px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 49%;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    margin: auto;
+    margin-top: 10px;
+}
+
+.menu {
+    height: 112px;
+    width: 912px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    margin: -80px auto 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.header-dashboard {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.div1 {
+    width: 22%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 4px;
+    font-size: 16;
+    font-weight: bold;
+    height: 80px;
+    padding:15px;
+}
+.div1 h2{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+    line-height: 32px;
+}
+
+.menu-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #079A82;
+}
